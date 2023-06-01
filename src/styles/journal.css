@@ -1,0 +1,125 @@
+/* Styles for journal components */
+
+.journal-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+  }
+  
+  .sidebar {
+    width: 20%;
+    min-width: 200px;
+    background-color: #36393f;
+    padding: 20px;
+    color: #ffffff;
+  }
+  
+  .sidebar h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .sidebar p {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .sidebar .divider {
+    border-bottom: 1px solid #ffffff;
+    margin-bottom: 10px;
+  }
+  
+  .sidebar .view-all-button {
+    background-color: transparent;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .sidebar .view-all-button:hover {
+    text-decoration: underline;
+  }
+  
+  .journal-entry {
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .journal-entry h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .journal-entry p {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .journal-entry .entry-date {
+    font-size: 12px;
+    color: #777777;
+  }
+  
+  /* Styles for journal entry form */
+  
+  .journal-form {
+    max-width: 800px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .journal-form h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .journal-form label {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .journal-form input[type='text'] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  
+  .journal-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    resize: vertical;
+  }
+  
+  .journal-form .button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #7289da;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .journal-form .button:hover {
+    background-color: #5b6eae;
+  }
+  
+  .journal-form .button:active {
+    background-color: #4c5c99;
+  }
+  

@@ -1,0 +1,74 @@
+/* Styles for layout components */
+
+.header {
+    background-color: #36393f;
+    padding: 20px;
+    color: #ffffff;
+  }
+  
+  .header h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .nav-item {
+    margin-right: 10px;
+  }
+  
+  .nav-item:last-child {
+    margin-right: 0;
+  }
+  
+  .nav-item a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .nav-item a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer {
+    background-color: #36393f;
+    padding: 20px;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  .shared-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #7289da;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .shared-button:hover {
+    background-color: #5b6eae;
+  }
+  
+  .shared-button:active {
+    background-color: #4c5c99;
+  }
+  
+  .shared-textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    resize: vertical;
+  }
+  
