@@ -1,9 +1,12 @@
-// Footer.js
 import React from 'react';
-import './styles/layout.css';
+import '../../styles/layout.css';
 
 const Footer = () => {
-  return <footer>&copy; 2023 Journal App. All rights reserved.</footer>;
+  return (
+    <footer className="footer">
+      <p>&copy; {new Date().getFullYear()} Journal App. All rights reserved.</p>
+    </footer>
+  );
 };
 
 export default Footer;

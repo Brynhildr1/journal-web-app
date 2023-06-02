@@ -1,4 +1,3 @@
-// JournalEntry.js
 import React from 'react';
 import '../../styles/journal.css';
 

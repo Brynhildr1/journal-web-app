@@ -1,74 +1,88 @@
-/* Styles for layout components */
-
 .header {
-    background-color: #36393f;
-    padding: 20px;
-    color: #ffffff;
-  }
-  
-  .header h1 {
-    font-size: 24px;
-    margin: 0;
-  }
-  
-  .navbar {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    margin-top: 10px;
-  }
-  
-  .nav-item {
-    margin-right: 10px;
-  }
-  
-  .nav-item:last-child {
-    margin-right: 0;
-  }
-  
-  .nav-item a {
-    color: #ffffff;
-    text-decoration: none;
-    font-size: 14px;
-    font-weight: bold;
-  }
-  
-  .nav-item a:hover {
-    text-decoration: underline;
-  }
-  
-  .footer {
-    background-color: #36393f;
-    padding: 20px;
-    color: #ffffff;
-    text-align: center;
-  }
-  
-  .shared-button {
-    padding: 10px 20px;
-    border: none;
-    border-radius: 4px;
-    background-color: #7289da;
-    color: #ffffff;
-    cursor: pointer;
-    font-size: 14px;
-  }
-  
-  .shared-button:hover {
-    background-color: #5b6eae;
-  }
-  
-  .shared-button:active {
-    background-color: #4c5c99;
-  }
-  
-  .shared-textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    margin-bottom: 10px;
-    font-size: 14px;
-    resize: vertical;
-  }
-  
+  background-color: #191a1d;
+  color: white;
+  padding: 1rem 3rem; 
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-right: auto;
+}
+
+.nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  font-weight: 700;
+}
+
+.nav-links li {
+  margin-left: 3rem; 
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-links a.profile {
+  background-color: white;
+  color: black;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+}
+
+.footer {
+  background-color: #191a1d;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.sidebar {
+  flex: 0 0 300px;
+  background-color: #36393f;
+  padding: 20px;
+  overflow-y: auto; /* Add this to enable scrolling if needed */
+}
+
+.entry {
+  margin-bottom: 1.5rem;
+}
+
+.entry-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.entry-content {
+  max-height: 3.6rem; /* Adjust the maximum height as needed */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 0.5rem;
+}
+
+.entry-timestamp {
+  font-size: 0.8rem;
+  color: gray;
+  margin-bottom: 0.5rem;
+}
+
+.entry-divider {
+  border: none;
+  border-top: 1px solid #666;
+  margin: 0.5rem 0;
+}
+
+.view-all-button {
+  background-color: white;
+  color: black;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 4px;
+  font-size: 1rem;
+}

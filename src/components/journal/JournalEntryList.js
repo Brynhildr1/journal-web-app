@@ -1,4 +1,3 @@
-// JournalEntryList.js
 import React from 'react';
 import JournalEntry from './JournalEntry';
 import '../../styles/journal.css';

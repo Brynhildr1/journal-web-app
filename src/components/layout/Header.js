@@ -1,12 +1,17 @@
-// Header.js
 import React from 'react';
-import './styles/layout.css';
+import '../../styles/layout.css';
 
 const Header = () => {
   return (
-    <header>
-      <h1>Journal</h1>
-      {/* Navigation links */}
+    <header className="header">
+      <div className="logo">Journal</div>
+      <nav>
+        <ul className="nav-links">
+          <li><a href="/">About</a></li>
+          <li><a href="/">Contact</a></li>
+          <li><a href="/" className="profile">Profile</a></li>
+        </ul>
+      </nav>
     </header>
   );
 };

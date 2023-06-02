@@ -1,4 +1,3 @@
-// JournalPage.js
 import React, { useState } from 'react';
 import JournalEntryList from './JournalEntryList';
 import '../../styles/journal.css';
@@ -28,8 +27,8 @@ const JournalPage = () => {
         <label htmlFor="content">Content:</label>
         <textarea id="content" rows={10}></textarea>
       </div>
-      <button onClick={handleSaveEntry}>Save Entry</button>
-      <JournalEntryList entries={entries} />
+      <button onClick={() => handleSaveEntry(document.getElementById('title').value, document.getElementById('content').value)}>Save Entry</button>
+      <JournalEntryList entries={entries} /> {/* Pass entries as props to JournalEntryList */}
     </div>
   );
 };
